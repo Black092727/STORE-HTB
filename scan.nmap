@@ -1,0 +1,29 @@
+# Nmap 7.94SVN scan initiated Fri Jan  9 13:19:53 2026 as: nmap -sCV -T5 -vv -oN scan.nmap 10.129.238.32
+Nmap scan report for 10.129.238.32
+Host is up, received echo-reply ttl 63 (0.16s latency).
+Scanned at 2026-01-09 13:19:54 IST for 25s
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE REASON         VERSION
+22/tcp   open  ssh     syn-ack ttl 63 OpenSSH 8.9p1 Ubuntu 3ubuntu0.13 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   256 30:68:b8:a8:f5:47:ca:bf:1a:23:97:d5:4c:77:97:da (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBC5TieDqR+ZajFB8iKCwTBWL8robFFVQWeDkPfVmYx1oJbnJ2BxSuuxfnVhYlGxrm/0//Tn5jjrj8M1TQk2gHtQ=
+|   256 3f:83:9f:53:0a:49:db:00:d5:18:85:e9:2f:05:76:dd (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBu1qgH+SK0I4g084uZPc11UMnfl6jGlP6CPw9yhoYGk
+5000/tcp open  http    syn-ack ttl 63 Node.js (Express middleware)
+|_http-title: Secure Encrypted Storage - 01001101 01101001 01101100 01101001...
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+5001/tcp open  http    syn-ack ttl 63 Node.js (Express middleware)
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-title: Secure Encrypted Storage - 01001101 01101001 01101100 01101001...
+5002/tcp open  http    syn-ack ttl 63 Node.js (Express middleware)
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-title: Secure Encrypted Storage - 01001101 01101001 01101100 01101001...
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Jan  9 13:20:19 2026 -- 1 IP address (1 host up) scanned in 25.45 seconds

